@@ -32,16 +32,6 @@ wget www.m-mitchell.com/code/MitchellEtAl-13-OpenSentiment.tgz
 # download wang, et al. (2017) Multi-target-specific sentiment recognition on twitter
 wget -O wangetal.zip https://ndownloader.figshare.com/articles/4479563/versions/1
 
-# # download dong et al. (2014) Adaptive recursive neural networkfor target-dependent twitter sentiment classification
-# git init dong-et-al
-# cd dong-et-al
-# git remote add -f origin https://github.com/bluemonk482/tdparse
-# git config core.sparseCheckout true
-# echo "/data/lidong/*" >> .git/info/sparse-checkout
-# git pull origin master
-# cd ..
-
-
 # download Jiang et al. (2019) A Challenge Dataset and Effective Models for Aspect-Based Sentiment Analysis
 git init jiang-et-al
 cd jiang-et-al
@@ -50,3 +40,12 @@ git config core.sparseCheckout true
 echo "/data/*" >> .git/info/sparse-checkout
 git pull origin master
 cd ..
+
+# download NoReC_fine
+git clone https://github.com/ltgoslo/norec_fine
+
+# download MultiBooked datasets
+
+# download Darmstadt datasets
+
+# download OpeNER sentiment datasets
